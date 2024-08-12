@@ -1,5 +1,12 @@
 #!/usr/bin/python3
+"""
+Unittest for BaseModel class.
+"""
+
+import unittest
 from models.base_model import BaseModel
+from datetime import datetime
+import uuid
 
 my_model = BaseModel()
 my_model.name = "My First Model"
